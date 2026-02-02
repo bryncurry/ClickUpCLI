@@ -3,8 +3,9 @@
 import { Command } from "commander";
 import { ClickUpClient } from "./api.js";
 import dotenv from "dotenv";
+import path from "path";
 
-dotenv.config();
+dotenv.config({ path: path.join(__dirname, "../.env") });
 
 const program = new Command();
 const client = new ClickUpClient();

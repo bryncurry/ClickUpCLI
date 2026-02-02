@@ -1,5 +1,4 @@
-import dotenv from 'dotenv';
-dotenv.config();
+
 
 const API_BASE = "https://api.clickup.com/api/v2";
 
