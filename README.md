@@ -30,7 +30,7 @@ A CLI tool for interacting with ClickUp.
 
 ## Usage
 
-After linking, you can execute the CLI directly:
+After linking, you can execute the CLI directly. Note, you will need a .env file with your CLICKUP_API_KEY variable declared with your API token.
 
 ```bash
 clk stop
