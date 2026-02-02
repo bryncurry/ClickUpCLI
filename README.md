@@ -2,7 +2,7 @@
 
 A CLI tool for interacting with ClickUp.
 
-## Installation for Team Members
+## Installation Steps
 
 1. **Clone the repository:**
    ```bash
@@ -33,8 +33,8 @@ A CLI tool for interacting with ClickUp.
 After linking, you can execute the CLI directly:
 
 ```bash
-clk --help
-clk status
+clk stop
+clk tasks
 ```
 
 ## Development
