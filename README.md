@@ -37,6 +37,8 @@ clk stop
 clk tasks
 ```
 
+Also note that the "meetings" command explicitly searches for a "Meetings" task, as that is the name of the task a team I'm on currently uses. If your task is called something different, you will need to adjust the code for this task.
+
 ## Development
 
 - **Build changes:** `yarn build`
